@@ -1,0 +1,3 @@
+[submodule "submodule_project"]
+	path = submodule_project
+	url = git@github.com:leexinfast/submodule_project.git
