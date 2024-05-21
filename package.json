@@ -1,0 +1,27 @@
+{
+  "name": "main_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leexinfast/main_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leexinfast/main_project/issues"
+  },
+  "homepage": "https://github.com/leexinfast/main_project#readme",
+  "devDependencies": {
+    "husky": "^9.0.11"
+  },
+  "husky": {
+    "hooks": {
+      "post-merge": "node test.js"
+    }
+  }
+}
